@@ -61,4 +61,12 @@
 
 #apps-icon { 
     position: relative;
+    color: rgb(131, 128, 128);
+    left: 190px;
+}
+
+#more-icon {
+    position: relative;
+    color: rgb(131, 128, 128);
+    left: 200px;
 }
