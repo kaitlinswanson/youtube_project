@@ -89,9 +89,63 @@
     font-family: 'Roboto', sans-serif;
     color: rgb(131, 128, 128);
     margin-left: 2%;
+    margin-right: 40%;
+}
 
+#profile-photo {
+    width: 44px;
+    height: 44px;
 }
 
 #sub-count { 
     font-size: 13px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+#video-description { 
+    font-size: 14px;
+    color: rgb(66, 65, 65);
+    position: relative;
+    bottom: 40px;
+}
+
+#channel-name { 
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+
+.suggestions { 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70%;
+    position: relative;
+    bottom: 750px;
+}
+
+#video-1-image, #video-2-image { 
+    width: 168px;
+    height: 94px;
+}
+
+#suggestion-title, #suggestion-title-2 {
+    position: relative;
+    left: 180px;
+    top: 90px;
+}
+#details, #details-2 { 
+    font-size: 13px;
+    color: rgb(66, 65, 65);
+    position: relative;
+    left: 180px;
+    top: 100px;
+}
+
+#video-1, #video-2 {
+    position: relative;
+    height: 100px;
 }
