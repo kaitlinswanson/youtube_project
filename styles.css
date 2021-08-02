@@ -52,6 +52,7 @@
     border:rgb(131, 128, 128);
     border-style: solid;
     border-width: thin;
+    border-radius: 2px;
 }
 
 #mic-icon {
@@ -69,4 +70,28 @@
     position: relative;
     color: rgb(131, 128, 128);
     left: 200px;
+}
+
+#profile-icon {
+    position: relative;
+    color: rgb(131, 128, 128);
+    left: 210px;
+}
+
+.title { 
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(131, 128, 128);
+    margin-left: 2%;
+
+}
+
+#sub-count { 
+    font-size: 13px;
 }
