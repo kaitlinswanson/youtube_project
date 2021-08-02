@@ -37,6 +37,8 @@
 
 .video {
     margin-left: 2%;
+    position:relative;
+    top: 20px;
 }
 
 #search-icon {
@@ -83,6 +85,8 @@
     color: black;
     font-size: 20px;
     margin-left: 2%;
+    position: relative;
+    top: 20px;
 
 }
 .description {
@@ -90,6 +94,8 @@
     color: rgb(131, 128, 128);
     margin-left: 2%;
     margin-right: 40%;
+    position: relative;
+    top: 20px;
 }
 
 #profile-photo {
@@ -124,20 +130,20 @@
     font-family: 'Roboto', sans-serif;
     margin-left: 70%;
     position: relative;
-    bottom: 750px;
+    bottom: 780px;
 }
 
-#video-1-image, #video-2-image { 
+.thumbnails { 
     width: 168px;
     height: 94px;
 }
 
-#suggestion-title, #suggestion-title-2 {
+#suggestion-title, #suggestion-title-2, #suggestion-title-3, #suggestion-title-4, #suggestion-title-5, #suggestion-title-6 {
     position: relative;
     left: 180px;
     top: 90px;
 }
-#details, #details-2 { 
+#details, #details-2, #details-3, #details-4, #details-5, #details-6 { 
     font-size: 13px;
     color: rgb(66, 65, 65);
     position: relative;
@@ -145,7 +151,7 @@
     top: 100px;
 }
 
-#video-1, #video-2 {
+#video-1, #video-2, #video-3, #video-4, #video-5, #video-6 {
     position: relative;
     height: 100px;
 }
